@@ -2,7 +2,7 @@
 Library     Selenium2Library
 Library     REST
 
-Resource    ../Controller/WEB/Top9SitePractice/FakeLandingHomeController.robot
+Resource    ../Controller/API/ApiCepController.robot
 
 *** Keywords ***
 Abrir navegador
@@ -13,3 +13,9 @@ Abrir navegador
 
 Fechar navegador
     Close BROWSER
+
+
+Então eu válido que o status code
+    [Arguments]         ${StatusCode}
+    Integer             response status     ${StatusCode}
+    Output              response
