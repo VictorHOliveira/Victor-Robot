@@ -1,1 +1,9 @@
-Results.*
+app/*
+venv/
+*.png
+*.pyc
+*.xml
+*.html
+results/*
+__pycache__
+.gitignore
