@@ -1,0 +1,1 @@
+Após inserir sua apk nesta pasta delete este arquivo.

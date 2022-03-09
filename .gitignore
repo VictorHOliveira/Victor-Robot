@@ -1,9 +1,9 @@
-app/*
+# app/*
 venv/
 *.png
 *.pyc
 *.xml
 *.html
-results/*
+# results/*
 __pycache__
 .gitignore

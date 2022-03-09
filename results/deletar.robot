@@ -1,0 +1,1 @@
+Após executar a primeira vez e gerar um arquivo de resultado, pode deletar este arquivo.
