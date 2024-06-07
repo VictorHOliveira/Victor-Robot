@@ -1,8 +1,12 @@
 *** Settings ***
 Documentation  Em suites é onde ficam os cenários de teste e este é apenas um exemplo.
-Resource  ${ROOT}/resources/main.robot
+Resource  ${EXECDIR}/resources/main.robot
 
-*** Test Case ***
+*** Test Cases ***
 TC-000: Teste
-    [Tags]  Test  TC000
+    [Tags]  TC000  Test
+    Pass Execution  TESTE DE EXECUÇÃO
+
+TC-001: Teste
+    [Tags]  TC001  Test
     Pass Execution  TESTE DE EXECUÇÃO

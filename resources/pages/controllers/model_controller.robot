@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation  Este é um documento modelo para uma controller organizada.
-Resource  ${ROOT}/resources/main.robot
+Resource  ${EXECDIR}/resources/main.robot
 
 *** Variables ***
 &{model_controller.robot}

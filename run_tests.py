@@ -12,8 +12,8 @@ def robot_local_exe():
 
     os.system(f"echo ==============================================================================")
     os.system(f"echo EXECUTION WORKING")
-    os.system(f"echo {ROOT}")
-    os.system(f"robot -L trace -d results/{CURRENT_TIME}/logs -v CURRENT_TIME:{CURRENT_TIME} -i Test -v ROOT:{ROOT} suites")
+    # os.system(f"robot -L trace -d results/{CURRENT_TIME}/logs -v CURRENT_TIME:{CURRENT_TIME} -i Test -v ROOT:{ROOT} suites")
+    os.system(f"robot -L trace -d results/unit -v CURRENT_TIME:{CURRENT_TIME} -i Test suites")
     os.system(f"echo ==============================================================================")
     
 robot_local_exe()
